@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vFnRPHfaez8=",
+  "success": true,
+  "projectFilePath": "/Users/lemuelayala/Desktop/Proyectos/ECommerce.ProductCatalog.Api/ECommerce.ProductCatalog.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/lemuelayala/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/Users/lemuelayala/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
