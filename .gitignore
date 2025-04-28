@@ -1,0 +1,32 @@
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Ignorar archivos de gestión de paquetes
+# NuGet (estilo antiguo y caché local)
+packages/
+~/.nuget/packages en Mac/Linux
+**/packages.lock.json # Descomentar si no quieres versionar el lock file
+
+
+# Configuraciones específicas del entorno que pueden contener secretos
+appsettings.Development.json
+appsettings.Staging.jso
+appsettings.Production.json
+
+# Archivos de variables de entorno locales
+.env
