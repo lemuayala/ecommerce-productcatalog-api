@@ -1,3 +1,5 @@
+using ECommerce.ProductCatalog.Application.Interfaces.Repositories;
+
 namespace ECommerce.ProductCatalog.Application.Interfaces;
 
 public interface IUnitOfWork : IAsyncDisposable
