@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ECommerce.ProductCatalog.Application\ECommerce.ProductCatalog.Application.csproj" />
+      <ProjectReference Include="..\ECommerce.ProductCatalog.Domain\ECommerce.ProductCatalog.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

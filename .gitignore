@@ -11,6 +11,13 @@ obj/
 # Visual Studio Code
 .vscode/
 
+# IDE Files
+.idea/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
 # ReSharper
 _ReSharper*/
 *.[Rr]e[Ss]harper
