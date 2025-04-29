@@ -32,10 +32,17 @@ public class ProductService : IProductService
         await _unitOfWork.CompleteAsync(cancellationToken);
     }
 
-    public async Task UpdateAsync(Product product, CancellationToken cancellationToken = default)
+    public async Task<bool> UpdateAsync(Product product, CancellationToken cancellationToken = default)
     {
+        var existingProduct = await _productRepository.GetByIdAsync(product.Id, cancellationToken);
+        if (existingProduct == null)
+        {
+            return false; 
+        }
+
         _productRepository.Update(product);
         await _unitOfWork.CompleteAsync(cancellationToken);
+        return true;
     }
 
     public async Task DeleteAsync(int id, CancellationToken cancellationToken = default)
