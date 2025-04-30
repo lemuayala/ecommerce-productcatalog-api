@@ -1,4 +1,4 @@
-using ECommerce.ProductCatalog.Application.Dtos.Category;
+using ECommerce.ProductCatalog.Api.Dtos.Category;
 using ECommerce.ProductCatalog.Application.Interfaces.Services;
 using ECommerce.ProductCatalog.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;

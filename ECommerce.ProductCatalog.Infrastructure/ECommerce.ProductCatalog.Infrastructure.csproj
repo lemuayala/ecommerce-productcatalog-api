@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ECommerce.ProductCatalog.Application\ECommerce.ProductCatalog.Application.csproj" />
       <ProjectReference Include="..\ECommerce.ProductCatalog.Domain\ECommerce.ProductCatalog.Domain.csproj" />
     </ItemGroup>
 

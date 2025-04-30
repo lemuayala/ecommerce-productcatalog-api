@@ -1,7 +1,7 @@
-using ECommerce.ProductCatalog.Application.Interfaces;
-using ECommerce.ProductCatalog.Application.Interfaces.Repositories; 
 using ECommerce.ProductCatalog.Application.Interfaces.Services; 
 using ECommerce.ProductCatalog.Domain.Entities;
+using ECommerce.ProductCatalog.Domain.Interfaces.Repositories;
+using ECommerce.ProductCatalog.Infrastructure.Interfaces;
 
 namespace ECommerce.ProductCatalog.Application;
 

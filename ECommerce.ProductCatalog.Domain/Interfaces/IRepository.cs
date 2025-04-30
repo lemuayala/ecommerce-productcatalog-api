@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace ECommerce.ProductCatalog.Application.Interfaces;
+namespace ECommerce.ProductCatalog.Domain.Interfaces;
 
 public interface IRepository<T> where T : class
 {

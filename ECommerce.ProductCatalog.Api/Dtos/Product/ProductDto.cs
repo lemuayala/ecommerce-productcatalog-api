@@ -1,6 +1,6 @@
-using ECommerce.ProductCatalog.Application.Dtos.Category;
+using ECommerce.ProductCatalog.Api.Dtos.Category;
 
-namespace ECommerce.ProductCatalog.Application.Dtos.Product
+namespace ECommerce.ProductCatalog.Api.Dtos.Product
 {
     public class ProductDto
     {

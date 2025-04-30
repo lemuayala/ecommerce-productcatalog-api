@@ -1,6 +1,5 @@
-using ECommerce.ProductCatalog.Application.Interfaces;
-using ECommerce.ProductCatalog.Application.Interfaces.Repositories;
 using ECommerce.ProductCatalog.Domain.Entities;
+using ECommerce.ProductCatalog.Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.ProductCatalog.Infrastructure.Data.Repositories;

@@ -1,6 +1,6 @@
-using ECommerce.ProductCatalog.Application.Interfaces;
-using ECommerce.ProductCatalog.Application.Interfaces.Repositories;
+using ECommerce.ProductCatalog.Domain.Interfaces.Repositories;
 using ECommerce.ProductCatalog.Infrastructure.Data.Repositories;
+using ECommerce.ProductCatalog.Infrastructure.Interfaces;
 
 namespace ECommerce.ProductCatalog.Infrastructure.Data;
 

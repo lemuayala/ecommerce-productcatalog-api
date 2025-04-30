@@ -1,6 +1,6 @@
 using ECommerce.ProductCatalog.Domain.Entities;
 
-namespace ECommerce.ProductCatalog.Application.Interfaces.Repositories;
+namespace ECommerce.ProductCatalog.Domain.Interfaces.Repositories;
 
 public interface IProductRepository : IRepository<Product>
 {

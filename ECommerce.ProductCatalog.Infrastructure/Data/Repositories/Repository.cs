@@ -1,5 +1,5 @@
 using System.Linq.Expressions;
-using ECommerce.ProductCatalog.Application.Interfaces;
+using ECommerce.ProductCatalog.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.ProductCatalog.Infrastructure.Data.Repositories;
