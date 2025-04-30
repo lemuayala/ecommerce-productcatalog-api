@@ -1,6 +1,6 @@
 using AutoMapper;
-using ECommerce.ProductCatalog.Application.Dtos.Category;
-using ECommerce.ProductCatalog.Application.Dtos.Product;
+using ECommerce.ProductCatalog.Api.Dtos.Category;
+using ECommerce.ProductCatalog.Api.Dtos.Product;
 using ECommerce.ProductCatalog.Domain.Entities;
 
 namespace ECommerce.ProductCatalog.Api
